@@ -6,4 +6,9 @@ $(document).ready(function() {
  setTimeout(function() {
       $(".main-section").fadeIn(1500);
   },3000);
+
+
 });
+
+// Funcionalidad libreria de banderitas
+$("#demo").intlTelInput();
