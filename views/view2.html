@@ -31,12 +31,12 @@
       <div class="row">
         <div class=" text-center col-sm-12">
 
-          <input type="tel" id="demo" class="phone-input" placeholder="number">
+          <input type="tel" id="demo" class="phone-input" placeholder="number" autocomplete="off" placeholder="10 Digitos" class="validate" pattern="[0-9]{10}" required>
           <br>
           <br>
           <p>We will send a text to verify your phone</p>
           <br>
-          <button type="button" class="btn btn-lg btn-default">Next</button>
+          <button id="next" type= "submit" class="modal-action waves-effects waves-green btn-flat" disabled>Next</button>
 
         </div>
       </div>
