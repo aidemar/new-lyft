@@ -11,8 +11,8 @@ $(document).ready(function() {
 });
 
 // Funcionalidad libreria de banderitas
-/*$("#demo").intlTelInput();
-*/
+$("#demo").intlTelInput();
+
 
 //Funcionalidad view2
 var $phoneInput = $(".phone-input");
@@ -40,7 +40,7 @@ function getRandomArbitrary(min, max) {
 
 /* 		alert("LAB-" + randomNumber);
  	}*/
- 	 
+
 
 }
 
